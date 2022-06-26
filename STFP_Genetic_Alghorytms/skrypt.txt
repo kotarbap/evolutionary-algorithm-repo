@@ -1,0 +1,5 @@
+set title "Wizualizacja osobnika na ukladzie wspolrzednych"
+set xlabel "Calkowita dlugosc osobnika: 560,17"
+plot "najlepszyosobnik.dat" with lines lc rgb "blue" title "",\
+"najlepszyosobnik.dat" with points title "" pointtype 7 pointsize 1.0 lc rgb "red"
+
